@@ -261,7 +261,7 @@
   }
   .footer-secton .footer-frame-start {
     padding-left: 20px;
-    justify-content: space-around;
+    justify-content: start;
   }
   .footer-secton .footer-frame-start .footer-list {
     min-width: 150px;
