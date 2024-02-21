@@ -256,6 +256,9 @@
     height: clamp(200px, 88vh, 260px);
     padding-top: 20%;
   }
+  .footer-secton {
+    padding: 40px 0;
+  }
   .footer-secton .footer-frame-start {
     padding-left: 20px;
     justify-content: space-around;
