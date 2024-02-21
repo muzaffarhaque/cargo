@@ -1,0 +1,496 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+@import url( 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: white;
+}
+
+.primary-btn {
+    border: none;
+    outline: none;
+    padding: 9px 18px;
+    cursor: pointer;
+    min-width: 140px;
+    background-color: rgb(253, 146, 15);
+    color: white;
+    text-align: center;
+
+}
+.br-10 {
+    border-radius: 1rem;
+}
+
+.br-8 {
+    border-radius: 0.8rem;
+}
+
+.br-4 {
+    border-radius: 0.4rem;
+}
+
+.br-20 {
+    border-radius: 2rem;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+// =================== COMON CSS START ==================
+
+// ========= FONT SICE RESPONSIVE -----------------------
+.fs-48-32 {
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.fs-32-18,
+.fs-32-28 {
+    font-size: 32px;
+    line-height: 4px;
+}
+
+.fs-32-24 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.fs-36-24 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.fx-18 {
+    font-size: 18px;
+}
+
+.fs-18-12,
+.fs-18-14,
+.fs-18-16,
+.fs-18-9 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.fs-57-28,
+.fs-57-32,
+.ft-57-32 {
+    font-size: 57px;
+    line-height: 64px;
+}
+
+.fs-75-41 {
+    font-size: 75px;
+    line-height: 84px;
+}
+
+.fs-22-13,
+.fs-22-14,
+.fs-22-16,
+.fs-22-18 {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.fs-24-12 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.fs-26-12 {
+    font-size: 26px;
+    line-height: 29px;
+}
+
+.fs-14-11,
+.fs-14-13,
+.fs-14-9 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fs-28-18,
+.fs-28-24,
+.ft-28-18 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.fs-14-12,
+.fx-14 {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.fs-14-10 {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.fs-24-14,
+.fs-24-16,
+.fs-24-18,
+.fx-24 {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.fs-16-12,
+.fs-16-13,
+.fs-16-14,
+.fx-16 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.fx-12 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mw-151 {
+    max-width: 151px !important;
+    width: 100%;
+}
+
+.mw-200 {
+    max-width: 20px;
+    width: 100%;
+}
+
+.mw-101 {
+    max-width: 10px;
+    width: 100%;
+}
+
+.mh-400 {
+    min-height: 40px !important;
+    height: 100%;
+}
+
+.lh-70 {
+    line-height: 7px !important;
+}
+.orange {
+    color: orange;
+}
+// ========= FONT SICE RESPONSIVE -----------------------
+.desk-show {}
+
+.cancel-menu,
+.mb-show,
+.menu-bar,
+.tab-show {
+    display: none;
+}
+
+.mb-flex {
+    display: none !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.mw-90 {
+    width: 9rem;
+}
+
+.mw-698 {
+    max-width: 69.8rem;
+    width: 100%;
+}
+
+.pe-0 {
+    padding-right: 0 !important;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.folder-clip {
+    clip-path: polygon(0 0, 0% 20%, 0 49%, 0% 80%, 0 98%, 42% 100%, 80% 100%, 100% 100%, 100% 59%, 100% 19%, 51% 19%, 45% 0);
+}
+
+.pre-text {
+    white-space: pre-line;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    /* word-wrap: break-word; */
+}
+
+.desk-circle {
+    width: 0.8rem;
+}
+
+.mw-900 {
+    max-width: 90rem;
+    width: 100%;
+}
+
+.amc-page-padding {
+    padding: 9rem 0 0;
+}
+
+// 
+// ?============= HEADER CSS START =================
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 83px;
+    position: relative;
+
+}
+.logo {
+    width: 100%;
+    max-width: 220px;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo-icon,
+.mb-logo,
+.menu-lable {
+    display: none;
+}
+.side-nav-bar {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 30px;
+    padding: 0;
+    li {
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        color: #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        font-style: normal;
+        font-weight: 400;
+        cursor: pointer;
+
+    }
+    .activ {
+        color: #138ED1;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+    }
+}
+// ?============= HEADER CSS END =================
+// 
+// 
+// 
+// ?===================  HERO SECTION STAT ===========================
+.hero-main-section {
+    background: url("../images/cargo-hero.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    &::before {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        content: '';
+        background-color: rgba(0, 0, 0,.5);
+    }
+
+    .hero-secon-frame {
+        height: clamp(650px,88vh,730px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+// ?===================  HERO SECTION END ===========================
+// 
+// 
+// ?================================= scond section start ========================
+.second-section-start {
+    .second-frame {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: clamp(10px,10vw,30px);
+        padding-top: 100px;
+        .save-time-section {
+            width: 70%;
+            .save-time-image {
+                width: 100%;
+                height: 500px;
+                object-fit: cover;
+            }
+            h4 {
+                margin-top: 20px;
+            }
+        }
+        .contact-frame {
+            width: 30%;
+            .contact-us-frame {
+                width: 100%;
+                height: 240px;
+                padding: clamp(10px,10%,24px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background: url("../images/jason-ng-02TqcyMlGwA-unsplash.jpg") center;
+                background-size: cover;
+                gap: 10px;
+                position: relative;
+                z-index: 1;
+                &::before {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    z-index: -1;
+                    content: '';
+                    background-color: rgba(0, 0, 0,.5);
+                }
+            }
+            .over-service{
+                padding: 20px clamp(10px,10vw,25px);
+                background-color: rgb(241, 250, 241);
+                margin-top: 26px;
+                border-bottom: 2px solid orange;
+                ul{
+                    li{
+                        padding: 10px 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        gap: 13px;
+                        span{
+                            background-color: orange;
+                            color: white;
+                            min-width: 21px;
+                            aspect-ratio: 1;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+
+                        }
+                    }
+                }
+            }
+            .resent-news{
+                padding: 30px 3px;
+               li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 20px;
+                gap: clamp(10px,10vw,25px);
+                .news-ser-img{
+                    width:clamp(50px,35%,140px);
+                    aspect-ratio: 1.5;
+                }
+                .content{
+                    cursor: pointer;
+                    h5{
+                        color: orange;
+                        margin-bottom: 8px;
+                    }
+                    p{
+                        line-height: 18px;
+                    }
+                }
+               }
+            }
+        }
+    }
+}
+// ?================================= scond section end ========================
+// 
+// 
+.footer-secton{
+    width: 100%;
+    padding: 240px 0 40px 0;
+    background-color: rgb(49, 48, 48);
+    .footer-frame-start{
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        position: relative;
+        gap:clamp(13px,20vw,50px);
+        .cargo-box-img{
+            position: absolute;
+            width: 300px;
+            right: 5px;
+            bottom: -10px;
+        }
+        .left-content-footer{
+            width: 100%;
+            max-width: 400px;
+            min-width: 300px;
+        }
+        .footer-list{
+           min-width: 130px;
+        }
+    }
+}
+
+// 
+// 
+// 
+// 
+// 
+//
